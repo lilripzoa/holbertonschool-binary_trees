@@ -11,7 +11,7 @@
  * Return: 1 if tree is perfect, 0 otherwise
  */
 
-int is_perfect(const binary_tree_t *tree)
+int is_perfect(const binary_tree_t *tree, int depth, int level)
 {
 	int left;
 	int right;

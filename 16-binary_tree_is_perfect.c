@@ -6,12 +6,10 @@
 /**
  * is_perfect - check if binary is perfect
  * @tree: Pointer to the root node of the tree.
- * @depth: The depth of the tree
- * @level: The current level of the node in the tree.
  * Return: 1 if tree is perfect, 0 otherwise
  */
 
-int is_perfect(const binary_tree_t *tree, int depth, int level)
+int is_perfect(const binary_tree_t *tree)
 {
 	int left;
 	int right;
